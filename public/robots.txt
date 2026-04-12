@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stripe-mastery-hub.nealfrazier.tech/sitemap.xml

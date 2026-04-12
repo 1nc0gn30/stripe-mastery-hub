@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-bg: #F5F5F4;
+  --color-ink: #0A0A0A;
+  --color-accent: #6366F1; /* Indigo for Stripe feel */
+  --color-muted: #78716C;
+  --color-border: #E7E5E4;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-semibold tracking-tight;
+  }
+}
+
+.data-grid {
+  background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-border rounded-2xl shadow-sm;
+}
