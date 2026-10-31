@@ -12,7 +12,6 @@ View your app in AI Studio: https://ai.studio/apps/0da26a27-bdc4-4e9f-8f09-cfac3
 
 **Prerequisites:**  Node.js
 
-
 1. Install dependencies:
    `npm install`
 2. Run the app:
