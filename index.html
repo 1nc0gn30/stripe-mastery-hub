@@ -3,36 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stripe Mastery Hub</title>
-      <meta name="description" content="The ultimate developer resource for Stripe integrations. AI-powered flow generation, 50+ framework support, real-world code snippets, and comprehensive guides for webhooks, subscriptions, and no-code tools." />
+    <title>Stripe Mastery Hub — Open-Access Stripe Developer Workbench</title>
+    <meta
+      name="description"
+      content="In-browser Stripe engineering workbench: multi-runtime Payment Flow Generator (Node, Python, Go, Next.js), Web Crypto HMAC-SHA256 Stripe-Signature Simulator & Verifier, Processing Fee & Net Margin Calculator, and Idempotency Launch Checklist."
+    />
     <meta name="author" content="Neal Frazier" />
     <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#0b0f19" />
+    <meta name="theme-color" content="#0F172A" />
     <link rel="canonical" href="https://stripe-mastery-hub.nealfrazier.tech/" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts: Space Grotesk (Display), Inter (Body), JetBrains Mono (Code/Ledger) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- OpenGraph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Stripe Mastery Hub" />
-    <meta property="og:title" content="Stripe Mastery Hub" />
-    <meta property="og:description" content="The ultimate developer resource for Stripe integrations. AI-powered flow generation, 50+ framework support, real-world code snippets, and comprehensive guides for webhooks, subscriptions, and no-code tools." />
+    <meta property="og:title" content="Stripe Mastery Hub — Open-Access Stripe Developer Workbench" />
+    <meta
+      property="og:description"
+      content="Generate Stripe payment architectures in Node, Python, Go & Next.js, verify HMAC-SHA256 webhook signatures with Web Crypto, and calculate exact processing fees & net margins locally."
+    />
     <meta property="og:url" content="https://stripe-mastery-hub.nealfrazier.tech/" />
     <meta property="og:image" content="https://stripe-mastery-hub.nealfrazier.tech/og-image.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Stripe Mastery Hub preview image" />
+    <meta property="og:image:alt" content="Stripe Mastery Hub developer workbench preview card" />
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Stripe Mastery Hub" />
-    <meta name="twitter:description" content="The ultimate developer resource for Stripe integrations. AI-powered flow generation, 50+ framework support, real-world code snippets, and comprehensive guides for webhooks, subscriptions, and no-code tools." />
+    <meta name="twitter:site" content="@1nc0gn30" />
+    <meta name="twitter:creator" content="@1nc0gn30" />
+    <meta name="twitter:title" content="Stripe Mastery Hub — Open-Access Stripe Developer Workbench" />
+    <meta
+      name="twitter:description"
+      content="Multi-runtime Stripe flow generator, Web Crypto HMAC-SHA256 webhook signature verifier, and processing fee calculator — 100% free and client-side."
+    />
     <meta name="twitter:image" content="https://stripe-mastery-hub.nealfrazier.tech/og-image.png" />
+
+    <!-- AEO & SEO Schema.org Graph -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "name": "Stripe Mastery Hub",
+            "url": "https://stripe-mastery-hub.nealfrazier.tech/",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web Browser",
+            "description": "Open-access in-browser Stripe developer workbench featuring a multi-runtime Payment Flow Generator, Web Crypto HMAC-SHA256 Webhook Signature Simulator & Verifier, Processing Fee & Net Margin Calculator, and Idempotency Checklist.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "creator": {
+              "@type": "Person",
+              "name": "Neal Frazier",
+              "url": "https://nealfrazier.tech",
+              "sameAs": [
+                "https://github.com/1nc0gn30",
+                "https://nullai.tech"
+              ]
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Neal Frazier Tech",
+              "url": "https://nullai.tech"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do the Stripe webhook verifier and fee calculator run locally in the browser?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The Payment Flow Generator, HMAC-SHA256 Stripe-Signature Simulator & Verifier (powered by the Web Crypto API), Fee Calculator, and Launch Checklist all execute locally in your browser with zero backend dependencies and zero telemetry."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Stripe Mastery Hub free or paywalled?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Stripe Mastery Hub is 100% free and open-access with no paywalls, accounts, or locked features. Optional community support is available via Buy Us a Coffee (Stripe) or Solana tip."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which backend languages and Stripe architectures are supported?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The deterministic Flow Architect generates copy-ready production code for Node/TypeScript, Python, Go, and Next.js App Router covering Hosted Checkout, SaaS Subscriptions, Usage-Based Billing Meters, Connect Marketplace Splits, and Idempotent Webhooks."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
-      <input type="hidden" name="form-name" value="waitlist" />
-      <input type="email" name="email" />
-      <input type="text" name="bot-field" />
-    </form>
-
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,12 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Stripe Mastery Hub Open Graph image">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0b0f19"/>
-      <stop offset="100%" stop-color="#1f2a44"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#111A30" />
     </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1" />
+    </pattern>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <text x="80" y="260" fill="#e5e7eb" font-size="64" font-family="Arial, sans-serif" font-weight="700">Stripe Mastery Hub</text>
-  <text x="80" y="330" fill="#9ca3af" font-size="30" font-family="Arial, sans-serif">The ultimate developer resource for Stripe integrations. AI-powered flow generation, 50+ f</text>
-  <text x="80" y="560" fill="#cbd5e1" font-size="24" font-family="Arial, sans-serif">https://stripe-mastery-hub.nealfrazier.tech</text>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.65" />
+
+  <!-- Top Accent Hairline -->
+  <rect x="0" y="0" width="1200" height="6" fill="#5B5BF6" />
+
+  <!-- Brand Mark -->
+  <rect x="76" y="74" width="48" height="48" rx="12" fill="#5B5BF6" />
+  <rect x="88" y="90" width="24" height="16" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+  <line x1="88" y1="96" x2="112" y2="96" stroke="#FFFFFF" stroke-width="2.5" />
+
+  <text x="142" y="106" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18" font-weight="600" letter-spacing="3">
+    STRIPE DEVELOPER WORKBENCH · 100% IN-BROWSER
+  </text>
+
+  <!-- Main Headline -->
+  <text x="76" y="220" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="68" font-weight="700" letter-spacing="-1.5">
+    Stripe Mastery Hub
+  </text>
+
+  <!-- Wrapped Subtitle (safely bounded within 1048px) -->
+  <text x="76" y="284" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="400">
+    Architect multi-runtime payment flows, verify HMAC-SHA256
+  </text>
+  <text x="76" y="324" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="27" font-weight="400">
+    webhook signatures with Web Crypto, and model net margins.
+  </text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(76, 376)">
+    <rect x="0" y="0" width="256" height="52" rx="10" fill="#172036" stroke="#334155" stroke-width="1.5" />
+    <text x="128" y="31" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" font-weight="600">Node · Python · Go · Next</text>
+
+    <rect x="272" y="0" width="276" height="52" rx="10" fill="#172036" stroke="#5B5BF6" stroke-width="1.5" />
+    <text x="410" y="31" text-anchor="middle" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" font-weight="600">HMAC-SHA256 Webhook Lab</text>
+
+    <rect x="564" y="0" width="232" height="52" rx="10" fill="#172036" stroke="#334155" stroke-width="1.5" />
+    <text x="680" y="31" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" font-weight="600">Fee &amp; Margin Calc</text>
+
+    <rect x="812" y="0" width="236" height="52" rx="10" fill="#172036" stroke="#334155" stroke-width="1.5" />
+    <text x="930" y="31" text-anchor="middle" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" font-weight="600">Idempotency Gate</text>
+  </g>
+
+  <!-- Bottom Ledger Bar -->
+  <line x1="76" y1="518" x2="1124" y2="518" stroke="#1E293B" stroke-width="1.5" />
+  <text x="76" y="562" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18">
+    https://stripe-mastery-hub.nealfrazier.tech
+  </text>
+  <text x="1124" y="562" text-anchor="end" fill="#64748B" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="500">
+    Neal Frazier Tech (@1nc0gn30) · NullAI Platform
+  </text>
 </svg>
